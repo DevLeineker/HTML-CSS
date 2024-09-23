@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando imagens no fundo do seu site</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,300px);
+            justify-content: center;
+           gap: 5px;
+        }
+        div.quadrado{
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+            background-color: lightgray;
+           margin-left: 5px;
+           margin-right: 5px;
+        }
+        #q1{
+            background-color: skyblue;
+        }
+        #q2{
+            background-image: linear-gradient( to bottom, yellow, orange,red);
+        }
+        #q3{
+            background-image: url(imagens/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quadrado" id="q1">
+        </div>
+        <div class="quadrado" id="q2">
+        </div>
+        <div class="quadrado" id="q3">
+        </div>
+    </div>
+
+</body>
+</html>
