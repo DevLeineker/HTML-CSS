@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, gray, black);
+}
+main{
+    margin-right: auto;
+}
